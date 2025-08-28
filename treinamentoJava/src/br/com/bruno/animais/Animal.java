@@ -1,2 +1,6 @@
-package br.com.bruno.animais;public class Animal {
+package br.com.bruno.animais;
+
+public class Animal {
+    public void emitirSom() {
+    }
 }
