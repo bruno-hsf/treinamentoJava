@@ -1,6 +1,6 @@
 package br.com.bruno.minhasmusicas.modelos;
 
-public class Musica extends Audio{
+public class Musica extends Audio {
     private String album;
     private String artista;
     private String genero;
@@ -27,5 +27,16 @@ public class Musica extends Audio{
 
     public void setArtista(String artista) {
         this.artista = artista;
+    }
+
+    //implementar polimorfismo sobrescrevendo método getClassificacao()
+
+    @Override
+    public int getClassificacao() {
+        if (this.getTotalReproducoes() > 2000) {
+            return 10;
+        } else {
+            return 7;
+        }
     }
 }
