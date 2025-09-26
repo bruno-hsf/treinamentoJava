@@ -58,7 +58,7 @@ public class Main {
             listaDePessoas.add(p);
         }
         System.out.println("\nLista de pessoas cadastradas:");
-        //para cada objeto do tipo Pessoa contido em listaDePessoas, guarde temporariamente na variável *p*
+        //para cada objeto do tipo Pessoa contido em listaDePessoas, guarde-o temporariamente na variável *p*
         for (Pessoa p : listaDePessoas) {
             System.out.println(p);
         }
