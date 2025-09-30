@@ -1,3 +1,8 @@
+package br.com.bruno.exercicio5;
+
+import br.com.bruno.exercicio5.modelo.Circulo;
+import br.com.bruno.exercicio5.modelo.Quadrado;
+
 public class Main {
     public static void main(String[] args) {
         Quadrado quadrado = new Quadrado();
@@ -5,7 +10,5 @@ public class Main {
 
         Circulo circulo = new Circulo();
         System.out.println(circulo.calcularArea(2));
-
-
     }
 }

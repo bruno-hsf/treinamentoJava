@@ -1,3 +1,5 @@
+package br.com.bruno.exercicio5.modelo;
+
 public class Quadrado extends FiguraPlana {
 
 

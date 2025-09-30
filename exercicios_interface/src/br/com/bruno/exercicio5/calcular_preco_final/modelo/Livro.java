@@ -30,7 +30,7 @@ public class Livro extends Produto implements Calculavel {
 //        }
 //        return getPreco();
 
-        /*operador ternário: é um if/else em linmhja que retornar um valor
+        /*operador ternário: é um if/else em linha que retorna um valor
         condicao? exprSeVerdadeiro : exprSeFalso*/
         return isaVista() ? getPreco() * 0.9 : getPreco();
     }
